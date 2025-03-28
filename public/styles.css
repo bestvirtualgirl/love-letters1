@@ -1,15 +1,16 @@
 /* public/styles.css */
 
 .index-body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(173, 245, 255);
   background-image: ;
 }
 
 .index-title{
     text-align: center;
     align-content: center;
-    /* font-family: 'Jacquard 24', sans-serif; */
-    font-size: 40px;
+    font-family: serif;
+    font-size: 70px;
+    
 }
 
 .main-container{
@@ -34,9 +35,7 @@ h1{
 
 .read-container{
 
-    /* position: relative; */
-    
-    /* margin: 0 auto; */
+
 
     margin: 30px;
 
@@ -76,6 +75,7 @@ h1{
     image-rendering: pixelated; 
     /* border: solid blue 3px; */
     position: relative;
+    /* box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); */
 
 }
 
@@ -170,16 +170,20 @@ textarea {
     width: 100%;
 }
 button {
-    background-color: #5359ff;
+    background-color: #ff89d2;
+   
     color: white;
     padding: 10px 20px;
     font-size: 16px;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
     margin-left: auto;
     right: 0;
     image-rendering: pixelated;
+    font-family: 'Silkscreen',sans-serif;
+    
+
 }
 
 
@@ -192,7 +196,7 @@ button {
 /* Letters page */
 
 .letters-body{
-    background-color: rgb(176, 19, 35);
+    background-color: rgb(173, 245, 255);
 }
 
 .gallery-title{
@@ -235,14 +239,10 @@ button {
     transform: translate(-50%, -50%);
     text-align: center;
     width: 60%;
-    /* outline: blue solid 3px; */
+   
     font-family: 'Silkscreen',sans-serif;
     font-size: 4rem;
-    /* font-weight: 2px; */
-    /* font-family:  sans-serif; */
-    /* font-weight: bold;  */
-    /* font-style: italic; */
-    /* font-family: serif; */
+    
     
     
     color: #2d2d2d;
@@ -279,9 +279,14 @@ button {
     display: block;
     width: 100%;
     padding: 15px;
-    font-size: 20px;
+    font-size: 25px;
+
     
     
+}
+
+a{
+    text-decoration: none;
 }
 
 
@@ -302,7 +307,7 @@ button {
     }
 
     .index-letter{
-        height: 500px;
+        height: 400px;
         width: 400px;
     }
 
@@ -312,25 +317,32 @@ button {
     }
 
     .index-letter-content {
-        top: 45%;
+        top: 40%;
     }
 
     input, textarea {
-        font-size: 14px; 
+        font-size: 12px; 
         padding: 5px; 
         width: 100%;
     }
 
     textarea{
-        height: 100px;
+        height: 90px;
         width: 100%;
     }
     
     .radio-buttons{
         font-family: 'Silkscreen',sans-serif;
-        /* padding: 0px; */
+        padding: 0px;
+        margin: 1px;
+        width: 8px;
+        
     }
 
+    .label{
+        font-size: 15px;
+        margin-right: 5px;
+    }
 
 /* Letters page */
 
