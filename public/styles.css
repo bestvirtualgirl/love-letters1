@@ -245,7 +245,7 @@ button {
     /* font-family: serif; */
     
     
-    color: #848484;
+    color: #2d2d2d;
 
     
     
@@ -268,7 +268,7 @@ button {
 }
 
 .letter-heading{
-    font-size: 35px;
+    font-size: 30px;
     
 }
 
@@ -279,6 +279,7 @@ button {
     display: block;
     width: 100%;
     padding: 15px;
+    font-size: 20px;
     
     
 }
@@ -327,7 +328,7 @@ button {
     
     .radio-buttons{
         font-family: 'Silkscreen',sans-serif;
-        padding: 0px;
+        /* padding: 0px; */
     }
 
 
@@ -338,7 +339,7 @@ button {
         grid-template-columns: 1fr;
         /* justify-content: center; 
         align-items: center;  */
-        
+
 
         
         
