@@ -1,14 +1,14 @@
 /* public/styles.css */
 
 .index-body{
-    background-color: rgb(166, 18, 18);
+    background-color: rgb(255, 255, 255);
   background-image: ;
 }
 
 .index-title{
     text-align: center;
     align-content: center;
-    font-family: 'Jacquard 24', sans-serif;
+    /* font-family: 'Jacquard 24', sans-serif; */
     font-size: 40px;
 }
 
@@ -302,7 +302,7 @@ button {
 
     .index-letter{
         height: 500px;
-        width: 500px;
+        width: 400px;
     }
 
     .envelope-art{
@@ -325,6 +325,11 @@ button {
         width: 100%;
     }
     
+    .radio-buttons{
+        font-family: 'Silkscreen',sans-serif;
+        padding: 0px;
+    }
+
 
 /* Letters page */
 
@@ -333,6 +338,7 @@ button {
         grid-template-columns: 1fr;
         /* justify-content: center; 
         align-items: center;  */
+        
 
         
         
