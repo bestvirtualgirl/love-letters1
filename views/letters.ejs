@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>letters</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Cutive+Mono&family=Geo:ital@0;1&family=Jacquard+24&family=Jersey+10&family=Jersey+15&family=Jersey+20&family=Jersey+25&family=Pixelify+Sans:wght@400..700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    
+
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="letters-body">
+    <h1 class="gallery-title">Letter Gallery</h1>
+        <a href="/" class="link">Write a letter</a>
+    <div class="letter-container">
+
+        <% if (letters.length > 0) { %>
+            <% letters.forEach(letter => { %>
+                <div class="letter" style="background-image: url('/images/<%= letter.design %>');">
+                    <div class="letter-text">
+                        <p class="letter-heading"> To: <%= letter.recipient %></p>
+                        <p class="letter-message"><%= letter.message %></p>
+                        <p class="letter-heading">From: <%= letter.sender %></p>
+                    </div>
+                    <!-- Delete form -->
+                <form action="/letters/<%= letter._id %>?_method=DELETE" method="POST" style="display:inline;">
+                    <input type="hidden" name="_method" value="DELETE"> 
+                    <button type="submit">Delete</button>
+                </form>
+                </div>
+                
+            <% }); %>
+        <% } else { %>
+            <p>No letters yet.</p>
+        <% } %>
+      
+    </div>
+
+    
+
+    
+</body>
+</html>

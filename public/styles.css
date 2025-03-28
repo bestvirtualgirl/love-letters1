@@ -1,0 +1,368 @@
+/* public/styles.css */
+
+.index-body{
+    background-color: rgb(166, 18, 18);
+  background-image: ;
+}
+
+.index-title{
+    text-align: center;
+    align-content: center;
+    font-family: 'Jacquard 24', sans-serif;
+    font-size: 40px;
+}
+
+.main-container{
+  align-items: center;
+  display: flex;
+  /* padding: auto; */
+  justify-content: center;
+  gap: 30px;
+
+  
+}
+
+h1{
+    text-align: center;
+    text-emphasis: none;
+    text-decoration: none;
+    color: black;
+    
+}
+
+/* Read container */
+
+.read-container{
+
+    /* position: relative; */
+    
+    /* margin: 0 auto; */
+
+    margin: 30px;
+
+   
+}
+
+
+.envelope-art{
+    width: 600px; /* Adjust size as needed */
+    height: 600px;
+    image-rendering: pixelated; /* Keeps pixel art sharp */
+    display: block;
+    margin: 0 auto;
+  
+    
+}
+
+/* Write comtainer */
+
+.write-container{
+    /* position: relative; */
+    margin: 30px;
+    /* text-align: left; */
+    
+   
+}
+
+.index-letter{
+    background-image: url('/images/pink100px.png');
+    margin: 0 auto;
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    image-rendering: pixelated; 
+    /* border: solid blue 3px; */
+    position: relative;
+
+}
+
+/* Index page letter content */
+.index-letter-content {
+    /* position: relative; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-height: 80%;
+    padding: 10px;
+    /* border: solid rgb(198, 198, 0) 3px; */
+    position: absolute;
+    box-sizing: border-box;
+    
+    
+}
+
+form{
+    width: 90%;
+}
+form ul {
+    list-style: none;
+    padding: 0;
+}
+
+form li {
+    margin-bottom: 10px;
+}
+
+.label {
+    /* font-weight: bold; */
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px; 
+    margin-right: 10px; 
+    font-family: 'Silkscreen',sans-serif;
+}
+
+
+input, textarea  {
+    display: block;
+    /* margin-bottom: 15px; */
+    width: 100%;
+    padding: 10px;
+    border:none;
+    border-radius: 15px;
+    font-size: 16px;
+    /* border: solid blue 3px; */
+    font-family: 'Silkscreen',sans-serif;
+    background-color: #fff7e3;
+    
+    
+}
+
+
+.form  {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 15px;
+    align-items: flex-start; 
+}
+
+form .form-group div.radio-buttons {
+    display: flex; 
+    gap: 0px; 
+}
+
+
+
+textarea {
+    height: 100px;
+    width: 100%;
+    resize: none;
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    font-size: 14px;
+    
+}
+
+.radio-buttons{
+    font-family: 'Silkscreen',sans-serif;
+}
+
+/* Submit Button */
+
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+button {
+    background-color: #5359ff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto;
+    right: 0;
+    image-rendering: pixelated;
+}
+
+
+
+
+
+
+
+
+/* Letters page */
+
+.letters-body{
+    background-color: rgb(176, 19, 35);
+}
+
+.gallery-title{
+    align-content: center;
+    text-align: center;
+}
+
+.letter-container{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   
+    /* margin: 10px; */
+    /* margin: 30px; */
+    
+    gap: 20px;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;
+}
+
+.letter{
+    
+    height: 700px;
+    width: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    overflow: hidden;
+    /* filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.2)); */
+
+}
+
+
+.letter-text{
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 60%;
+    /* outline: blue solid 3px; */
+    font-family: 'Silkscreen',sans-serif;
+    font-size: 4rem;
+    /* font-weight: 2px; */
+    /* font-family:  sans-serif; */
+    /* font-weight: bold;  */
+    /* font-style: italic; */
+    /* font-family: serif; */
+    
+    
+    color: #848484;
+
+    
+    
+    
+    
+    /* padding: 20px; */
+    text-align: left;
+    /* overflow: hidden; */
+    overflow: auto;
+    max-height: 80%;
+    overflow-y: auto; /* Enables vertical scrolling if text is too long */
+    padding: 10px;
+    /* text-shadow: -1px -1px 0 #ffffff,1px -1px 0 #ffffff, -1px 1px 0 #ffffff,1px 1px 0 #ffffff; */
+    
+}
+
+
+.letter-message{
+    font-size: 20px;
+}
+
+.letter-heading{
+    font-size: 35px;
+    
+}
+
+
+.link{
+    align-items: center;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 15px;
+    
+    
+}
+
+
+/* Media queries  */
+
+/* Index page */
+
+@media (max-width: 768px) {
+    
+    .index-title {
+        font-size: 40px; 
+    }
+
+    
+    .main-container {
+        flex-direction: column; 
+        gap: 15px; 
+    }
+
+    .index-letter{
+        height: 500px;
+        width: 500px;
+    }
+
+    .envelope-art{
+        height: 400px;
+        width: 400px;
+    }
+
+    .index-letter-content {
+        top: 45%;
+    }
+
+    input, textarea {
+        font-size: 14px; 
+        padding: 5px; 
+        width: 100%;
+    }
+
+    textarea{
+        height: 100px;
+        width: 100%;
+    }
+    
+
+/* Letters page */
+
+   
+    .letter-container {
+        grid-template-columns: 1fr;
+        /* justify-content: center; 
+        align-items: center;  */
+
+        
+        
+    }
+
+
+    .letter {
+        height: 500px;
+        width: 500px;
+        margin: auto;
+    }
+
+   
+    .letter-text {
+        font-size: 1rem; 
+        width: 60%; 
+        max-height: 90%; 
+        /* top: 40%; */
+    }
+
+    
+
+    button {
+        font-size: 14px;
+        padding: 8px 15px; 
+    }
+
+   
+    .link {
+        padding: 10px; 
+        font-size: 18px; 
+    }
+}
